@@ -1,15 +1,30 @@
 ---
-title: Getting Started with spideo-doc-test
+title: Recommendation
 excerpt: >-
-  This page will help you get started with spideo-doc-test. You'll be up and
-  running in a jiffy!
+  Spideo provide customized recommendation based on the provided content. It
+  finds the most relevant content for each user, provide popularity ranking,
+  search, and much more
 hidden: false
 ---
-# Welcome to ReadMe
+# Getting started
 
-Welcome to your new developer hub—AI-powered, Git-backed, and built to help your docs evolve with your product.
+<Cards columns={4}>
+  <Card title="First Card" href="https://readme.com" icon="fa-home" target="_blank">
+    Neque porro quisquam est qui dolorem ipsum quia
+  </Card>
 
-You’re looking at a starter page we included to help you get started. Feel free to treat this as your first doc by hitting **Edit** at the top to make it your own, or delete it to start fresh.
+  <Card title="Second Card" icon="fa-user">
+    *Lorem ipsum dolor sit amet, consectetur adipiscing elit*
+  </Card>
+
+  <Card title="Third Card" icon="fa-star">
+    > Ut enim ad minim veniam, quis nostrud ullamco
+  </Card>
+
+  <Card title="Fourth Card" icon="fa-question">
+    **Excepteur sint occaecat cupidatat non proident**
+  </Card>
+</Cards>
 
 ***
 
@@ -43,16 +58,16 @@ Looking for a branded entry point? Enable a **<Anchor label="Landing Page" targe
 
 AI is built into ReadMe to help you and your users move faster. Slide the panel open by hitting **:sparkles:AI** in your top navigation bar.
 
-* **AI Agent**\
+* **AI Agent**  
   Our built-in AI agent is your sidekick for drafting documentation, translating pages, and applying style guides.
 
-* **MCP Server**\
+* **MCP Server**  
   Generate an **MCP** server to convert your API documentation into a structured resource that AI assistants can understand and interact with programmatically.
 
-* **AI-Powered Search**\
+* **AI-Powered Search**  
   Enable AI Search to help developers ask questions about your product and instantly receive an answer.
 
-* **Open in Other AI Services**\
+* **Open in Other AI Services**  
   Let your developers open your docs in tools like ChatGPT, Claude, or other LLMs, using context from your API and `llms.txt` configuration.
 
 ***
@@ -76,10 +91,10 @@ Once you're ready, merge the branch back into a live version. Enterprise plans c
 
 Whether you write docs in ReadMe's editor or your local dev environment, ReadMe fits into your workflow:
 
-* **[Bi-Directional Sync with GitHub](https://docs.readme.com/main/docs/bi-directional-sync)**\
+* **[Bi-Directional Sync with GitHub](https://docs.readme.com/main/docs/bi-directional-sync)**  
   Connect a GitHub repo to your project and work in branches. Changes in Git or ReadMe will stay in sync—perfect for staging and code review workflows.
 
-* **Sync Your OpenAPI Files**\
+* **Sync Your OpenAPI Files**  
   Use [`rdme`](https://docs.readme.com/docs/rdme#upload) or the ReadMe API to push your OpenAPI spec and keep your API Reference up to date automatically.
 
 ***
@@ -104,10 +119,12 @@ Want to know how developers are actually using your API and docs?
 ***
 
 <Callout icon="💼" theme="default">
-  Need support for multiple products, advanced permissions, or deeper customization?\
+  Need support for multiple products, advanced permissions, or deeper customization?  
   Our enterprise features are built for teams managing business-critical APIs at scale. [Let's talk.](mailto:growth@readme.io)
 </Callout>
 
 ## 💬 Need Help?
 
 Our team is here to support you. If you get stuck, [email us](mailto:support@readme.io) or open the Intercom widget on any page to chat with someone from our team. We've also got a <Anchor label="Slack community" target="_blank" href="https://readme.com/slack">Slack community</Anchor> if you want to say hi to the team and connect with other ReadMe users!
+
+<br />
