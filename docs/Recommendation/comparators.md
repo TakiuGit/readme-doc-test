@@ -21,19 +21,19 @@ The `IN` comparator is used to search for metadata containing one of the match f
 When passing multiple values, any of the value quested are searched in order to find a match.
 Meaning that `catalog IN ("foo","bar")` can be expressed as `catalog = foo OR catalog = bar`.
 
-<Callout icon="📘">
+<Callout icon="📘" theme="info">
   This filter do not apply any additional filter on the content type.
   This mean that requesting for `$lineups NIN "channel"` can also return VOD contents.
 </Callout>
 
 **Examples**
 
-```SQL Content in the catalog foo
-catalog IN foo
+```sql Content in the catalog foo
+"catalog" IN "foo"
 ```
 
-```SQL Content the catalog foo or bar
-catalog IN ("foo","bar")
+```sql Content the catalog foo or bar
+"catalog" IN ("foo","bar")
 ```
 
 ### NIN
