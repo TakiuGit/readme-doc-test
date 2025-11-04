@@ -1,5 +1,5 @@
 ---
-title: Recommendation
+title: Welcome
 excerpt: >-
   Spideo provide customized recommendation based on the provided content. It
   finds the most relevant content for each user, provide popularity ranking,
